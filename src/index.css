@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  color: #f7f5ff;
+  background:
+    radial-gradient(ellipse at 12% 18%, rgba(80, 77, 188, 0.3), transparent 44%),
+    linear-gradient(135deg, #25235e 0%, #171638 100%);
+  font-family: "Trebuchet MS", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
